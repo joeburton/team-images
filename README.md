@@ -49,7 +49,7 @@ $ npm install --save gh-pages
   "private": true,
   "homepage": "https://joeburton.github.io/team-images/",
   "dependencies": {
-    "gh-pages": "^1.1.0",
+    "gh-pages": "^1.2.0",
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
     "react-scripts": "1.1.4"
