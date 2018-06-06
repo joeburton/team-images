@@ -2,6 +2,7 @@
   "name": "team-images",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://joeburton.github.io/team-images/",
   "dependencies": {
     "gh-pages": "^1.2.0",
     "prop-types": "^15.6.1",
@@ -13,7 +14,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom --coverage --verbose --watchAll",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
     "enzyme": "^3.3.0",
