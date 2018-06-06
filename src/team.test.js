@@ -34,7 +34,8 @@ it('should add some basic styling to the component', () => {
     expect(wrapper.find('ul').props().style).toEqual({
         "listStyle": "none", 
         "margin": "0 auto", 
-        "textAlign": "left"
+        "textAlign": "left",
+        "maxWidth": "600px"
     });
     expect(wrapper.find('ul').props().style.listStyle).toEqual('none');
 });

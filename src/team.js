@@ -6,7 +6,8 @@ class Team extends Component {
         return {
             listStyle: 'none',
             margin: '0 auto',
-            textAlign: 'left'
+            textAlign: 'left',
+            maxWidth: '600px'
         };
     }
     render() {
