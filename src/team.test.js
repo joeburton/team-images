@@ -21,7 +21,8 @@ beforeEach(() => {
 });
 
 afterEach(() => {
-    basicStylingSpy.mockClear()
+    basicStylingSpy.mockClear();
+    wrapper = null;
 });
 
 it('should be an instance of the Team component', () => {
