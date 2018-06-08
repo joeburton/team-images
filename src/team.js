@@ -13,7 +13,9 @@ class Team extends Component {
     render() {
         return (
             <div>
-                <h2>{this.props.title}</h2>
+                <h2>{this.props.title} {!this.props.win &&
+                    <span>nothing</span>
+                }</h2>
                 <ul className="members" style={this.basicStyling()}>
                     {this.props.members.map((member, i) => {
                         return (
@@ -27,13 +29,14 @@ class Team extends Component {
 };
 
 Team.propTypes = {
+    win: PropTypes.func,
     updateImage: PropTypes.func,
     members: PropTypes.array,
     title: PropTypes.string
 };
 
 Team.defaultProps = {
-    title: 'Team'
+    title: 'Reptiles'
 };
 
 export default Team;

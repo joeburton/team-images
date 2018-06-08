@@ -38,6 +38,7 @@ class App extends Component {
                     <h1>CashFlows</h1>
                 </header>
                 <Team 
+                    win={true}
                     title={'The Dev Team'}
                     updateImage={this.updateTeamMemberImage}
                     members={['Joe Burton', 'Mark Ashton', 'Matthew Johnson', 'Andrew Bright', 'Greg Boyles', 'Jack Peacock', 'Jarad Yadallee', 'Ricky Dutton', 'Sam O\'Shea', 'Steven Hoel']} 
